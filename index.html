@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Caixa Presente</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Botão de coração -->
+<div class="heart-container">
+  <input type="checkbox" class="checkbox" onclick="abrirTampa()">
+  <div class="svg-container">
+    <svg class="svg-outline" viewBox="0 0 24 24">
+      <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5
+       2 5.42 4.42 3 7.5 3c1.74 0 3.41 0.81 
+       4.5 2.09C13.09 3.81 14.76 3 16.5 3 
+       19.58 3 22 5.42 22 8.5c0 3.78-3.4 
+       6.86-8.55 11.54L12 21.35z"/>
+    </svg>
+    <svg class="svg-filled" viewBox="0 0 24 24">
+      <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5
+       2 5.42 4.42 3 7.5 3c1.74 0 3.41 0.81 
+       4.5 2.09C13.09 3.81 14.76 3 16.5 3 
+       19.58 3 22 5.42 22 8.5c0 3.78-3.4 
+       6.86-8.55 11.54L12 21.35z"/>
+    </svg>
+  </div>
+</div>
+
+<main class="presente">
+  <div class="caixa">
+    <div class="fita"></div>
+  </div>
+  <div class="container" id="container">
+    <div class="laco">
+      <div class="volta esq"></div>
+      <div class="volta"></div>
+    </div>
+    <div class="topo">
+      <div class="fita"></div>
+    </div>
+  </div>
+
+  <!-- Fotos -->
+  <div class="fotos" id="fotos">
+    <img src="img/IMG-20250610-WA0857.jpg" class="foto" />
+    <img src="img/IMG-20250610-WA0863.jpg" class="foto" />
+    <img src="img/IMG-20250610-WA0870.jpg" class="foto" />
+  </div>
+</main>
+
+<div class="mensagem" id="mensagem">
+  🎉 Surpresa! Feliz Aniversário! 🎁
+  <br>
+  A neurociência já comprovou que pessoas próximas emocionalmente desenvolvem padrões de ativação cerebral semelhantes em certas situações. É como se os cérebros começassem a operar em frequência compatível — o que explica, por exemplo, por que você, Maria, entende minhas piadas antes mesmo de eu terminar de formular a frase. Tecnicamente, isso envolve regiões como o córtex pré-frontal (associado à tomada de decisão e interpretação social) e o sistema límbico (onde mora a reação emocional). Na prática, significa que, você consegue rir de uma referência "duvidosa" e ainda fazer uma melhor na sequência — o que, honestamente, é um pouco assustador KKKKKKKKK. Você é, estatisticamente falando, uma das poucas pessoas capazes de manter uma conversa comigo sem perder o fio, sem ficar entediada, e ainda continuar com um comentário mais ácido, mais inteligente. E por mais que às vezes você realmente dê medo, muito, por sinal. o saldo geral é positivo. Então, em termos puramente bioquímicos: que seu cérebro continue liberando serotonina e dopamina em níveis adequados, que sua memória de longo prazo registre só o que vale a pena, e que seu hipocampo jamais esqueça que hoje é seu aniversário.
+
+Parabéns. Que você continue funcional, crítica, presente e ligeiramente psicopata. O mundo agradece
+</div>
+
+<div class="coracoes-container" id="coracoes-container"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
